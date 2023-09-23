@@ -7,7 +7,7 @@ attrs==23.1.0
 blinker==1.6.2
 blis==0.7.11
 cassandra-driver==3.28.0
-cassio==0.1.1
+cassio
 catalogue==2.0.9
 certifi==2023.7.22
 charset-normalizer==3.2.0
