@@ -6,3 +6,4 @@ spacy
 flask
 python-dotenv
 PyPDF2
+cassio
