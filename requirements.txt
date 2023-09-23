@@ -1,4 +1,4 @@
-cassio
+cassandra-driver
 langchain
 openai
 tiktoken
