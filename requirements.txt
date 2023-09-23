@@ -1,0 +1,8 @@
+cassio
+langchain
+openai
+tiktoken
+spacy
+flask
+python-dotenv
+PyPDF2
