@@ -2,9 +2,13 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 from flask import Flask, request, jsonify, abort
+from flask_cors import CORS
 from services.chat import chatService
 
 app = Flask(__name__)
+
+# Enable CORS for all domains
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 # Custom error handler for 400 Bad Request
 @app.errorhandler(400)
