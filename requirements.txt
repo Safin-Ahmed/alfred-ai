@@ -7,3 +7,4 @@ flask
 python-dotenv
 PyPDF2
 cassio
+flask_cors
